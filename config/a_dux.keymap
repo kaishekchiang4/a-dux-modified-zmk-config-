@@ -21,12 +21,12 @@
             >;
         };
 
-        layer_1 {
+      layer_1 {
             bindings = <
-                &kp N1     &kp N2     &kp N3     &kp MS_WH_DOWN &kp MS_WH_UP   &kp C_VOL_DN &kp C_VOL_UP &kp PIPE  &kp MINUS &kp BSPC
-                &kp N4     &kp N5     &kp N6     &kp MS_BTN1    &kp MS_BTN2    &kp LEFT     &kp DOWN     &kp UP    &kp RIGHT &kp RBRACKET
-                &kp N7     &kp N8     &kp N9     &kp SQT        &kp SEMI       &kp DOLLAR   &kp ASTRK    &kp W_BACK &kp W_FWD &kp LBRACKET
-                                        &kp N0     &kp SQT        &trans        &trans
+                &kp N1     &kp N2     &kp N3     &kp MS_WH_D &kp MS_WH_U   &kp C_VOL_DN &kp C_VOL_UP &kp PIPE    &kp MINUS  &kp BSPC
+                &kp N4     &kp N5     &kp N6     &kp MS_BTN1 &kp MS_BTN2   &kp LEFT     &kp DOWN     &kp UP      &kp RIGHT  &kp RBRACKET
+                &kp N7     &kp N8     &kp N9     &kp SQT     &kp SEMI      &kp DOLLAR   &kp ASTRK    &kp W_BACK  &kp W_FWD  &kp LBRACKET
+                                   &kp N0     &kp SQT        &trans        &trans
             >;
         };
     };
