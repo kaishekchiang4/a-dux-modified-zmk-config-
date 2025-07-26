@@ -10,6 +10,16 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <13 14>;
+            timeout-ms = <20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
