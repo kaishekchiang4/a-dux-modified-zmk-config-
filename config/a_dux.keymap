@@ -15,7 +15,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <13 14>;
+            key-positions = <13 12>;
             timeout-ms = <20>;
         };
     };
