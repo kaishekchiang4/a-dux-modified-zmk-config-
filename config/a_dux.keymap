@@ -51,7 +51,7 @@
         layer_1 {
             display-name = "Num";
             bindings = <
-&mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt POUND NUMBER_3       &msc SCRL_DOWN              &msc SCRL_UP                         &kp C_VOL_DN  &kp C_VOL_UP  &mt BSLH PIPE  &mt UNDERSCORE KP_MINUS  &kp BSPC
+&mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt POUND NUMBER_3       &kp PAGE_DOWN               &kp PAGE_UP                          &kp C_VOL_DN  &kp C_VOL_UP  &mt BSLH PIPE  &mt UNDERSCORE KP_MINUS  &kp BSPC
 &mt DLLR NUMBER_4  &mt PERCENT N5   &mt CARET NUMBER_6       &mkp LCLK                   &mkp RCLK                            &kp LEFT      &kp DOWN      &kp UP         &kp RIGHT                &kp RIGHT_BRACKET
 &mt AMPS N7        &mt ASTRK N8     &mt LEFT_PARENTHESIS N9  &mt RIGHT_BRACE LEFT_BRACE  &kp C_PLAY_PAUSE                     &kp DOLLAR    &kp ASTRK     &kp K_BACK     &kp K_FORWARD            &kp LEFT_BRACKET
                                                                                          &mt RPAR N0       &kp SQT    &trans  &trans
