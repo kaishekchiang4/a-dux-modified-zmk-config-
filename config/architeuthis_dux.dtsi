@@ -8,6 +8,15 @@
 
 / {
 
+       behaviors {
+		long_hold_tap: hold_tap {
+			compatible = "zmk,behavior-hold-tap";
+			label = "LONG_HOLD_TAP";
+			tapping-term-ms = <250>;   // ← now requires 250ms hold to trigger hold action
+			flavor = "tap-preferred";       // Can change to "hold-preferred" or "tap-preferred" if needed
+		};
+	};
+
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
